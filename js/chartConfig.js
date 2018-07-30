@@ -76,6 +76,7 @@
 			pushData(140); // 26th July
 			pushData(820); // 27th July
 			pushData(720); // 28th July
-			pushData(869); // 29th July
+			pushData(920); // 29th July
+			pushData(290); // 30th July
 			// HARDCODED DATA //
 		};
