@@ -134,6 +134,7 @@ body ::-ms-input-placeholder {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  height: 100%;
   padding: 20px;
 }
 .info-wrapper .info-grid .weather-cards .card .card-inner .card-day {
