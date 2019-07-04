@@ -266,8 +266,7 @@ body {
         flex-direction: column;
         .card {
           min-width: 135px;
-          max-width: calc( 100% - 50vh );
-          width: 100%;
+          width: 20%;
           max-height: 150px;
           min-height: 115px;
           margin: 5px auto;
@@ -286,7 +285,7 @@ body {
   }
 }
 
-@media only screen and (max-height: 568px) {
+@media only screen and (max-height: 640px) {
   .weather-cards {
     margin-top: 50px !important;
   }
