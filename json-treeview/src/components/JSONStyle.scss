@@ -1,0 +1,57 @@
+ul {
+  list-style-type: none;
+  color: #23A0DB;
+
+  .caret {
+    cursor: pointer;
+    -webkit-user-select: none; /* Safari 3.1+ */
+    -moz-user-select: none; /* Firefox 2+ */
+    -ms-user-select: none; /* IE 10+ */
+    user-select: none;
+  }
+
+  .caret::before {
+    content: "\25B6";
+    display: inline-block;
+    margin-right: 6px;
+    text-align: center;
+    color: #FFFFFF;
+    vertical-align: text-top;
+    transition: all 0.1s ease-in-out;
+  }
+
+  .caret-down::before {
+    -ms-transform: rotate(90deg); /* IE 9 */
+    -webkit-transform: rotate(90deg); /* Safari */
+    transform: rotate(90deg);
+    transition: all 0.1s ease-in-out;
+  }
+
+  .nested {
+    display: none;
+  }
+
+  .active {
+    display: block;
+  }
+
+  .number {
+    color: #EEC97D;
+  }
+
+  .string {
+    color: #FF4383;
+  }
+
+  .boolean {
+    color: #00C508;
+  }
+
+  .none {
+    color: #9E9E9E;
+  }
+
+  .obj-array, .bracket {
+    color: #FFFFFF;
+  }
+}
